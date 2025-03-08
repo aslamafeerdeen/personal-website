@@ -3,23 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>My Photography Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Personal Website</h1>
+        <h1>My Photography Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="posts">
-        <h2>Daily Posts</h2>
-        <div class="post">
-            <p>hello word</p>
+    <section id="home">
+        <h2>Welcome to My Photography World</h2>
+        <p>Discover my photography journey and explore my best works!</p>
+    </section>
+
+    <section id="gallery">
+        <h2>My Gallery</h2>
+        <div class="gallery-grid">
+            <!-- Example image, add more images here -->
+            <div class="photo">
+                <img src="path-to-your-image1.jpg" alt="Photo 1">
+            </div>
+            <div class="photo">
+                <img src="path-to-your-image2.jpg" alt="Photo 2">
+            </div>
+            <!-- Add more photos here -->
         </div>
     </section>
 
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm [Your Name], a passionate photographer capturing life's beautiful moments.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to work with me or have any inquiries, feel free to reach out!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Your Name</p>
+        <p>© 2025 My Photography Portfolio</p>
     </footer>
 
     <script src="scripts.js"></script>
